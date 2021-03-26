@@ -2,11 +2,7 @@ Package: scda.2021
 Type: Package
 Title: Synthetic CDISC Data Archive 2021
 Version: 0.1.0
-Authors@R: c(
-  person("NEST", email = "nestcicd@roche.com", role = c("aut", "cre")),
-  person("Adrian", "Waddell", email = "adrian.waddell@roche.com", role = "aut"),
-  person("Maximillian", "Mordig", email = "maximilian_oliver.mordig@roche.com", role = "aut")
-  )
+Authors@R:person("NEST", email = "nestcicd@roche.com", role = c("aut", "cre"))
 Description: An archive of synthetic CDISC data which we will grow over time.
 License: file LICENSE
 Encoding: UTF-8
