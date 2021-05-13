@@ -3,12 +3,12 @@ Type: Package
 Title: Synthetic CDISC Data Archive 2021
 Version: 0.1.0
 Authors@R:person("NEST", email = "nestcicd@roche.com", role = c("aut", "cre"))
-Description: An archive of synthetic CDISC data which we will grow over time.
+Description: An archive of synthetic CDISC data for 2021.
 License: file LICENSE
 Encoding: UTF-8
-LazyData: false
+LazyData: true
+LazyDataCompression: bzip2
 RoxygenNote: 7.1.1
 Roxygen: list(markdown = TRUE)
 Depends: 
-    R (>= 2.10),
-    scda
+    R (>= 3.5.0)

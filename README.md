@@ -14,5 +14,5 @@ data(package = "scda.2021")
 
 # Note
 
-The data in this package is an accumulation over time of datasets that were needed for documentation & unit testing code. We don't attempt to provide reproducibilty of the data. The git repo has the folder `create_data` which might have the scripts to create some of the data.
+The data in this package is an accumulation over time of datasets that were needed for documentation and unit testing code. We do not attempt to provide reproducibilty of the data. The git repo has the folder `data_raw` which might have the scripts to create some of the data.
 

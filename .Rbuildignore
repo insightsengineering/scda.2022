@@ -1,3 +1,6 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
-^data-raw$
+^_pkgdown\.yml$
+^Jenkinsfile$
+data_raw/*
+README.*
