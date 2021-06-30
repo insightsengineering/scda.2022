@@ -4,3 +4,4 @@
 ^Jenkinsfile$
 data_raw/*
 README.*
+^staged_dependencies.yaml$
