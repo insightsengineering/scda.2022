@@ -1,12 +1,12 @@
 ---
 current_repo:
-  repo: NEST/scda.2021
+  repo: insightsengineering/scda.2021
   host: https://github.com
 
 upstream_repos:
-- repo: NEST/scda
+- repo: insightsengineering/scda
   host: https://github.com
 
 downstream_repos:
-- repo: NEST/tern
+- repo: insightsengineering/tern
   host: https://github.com
