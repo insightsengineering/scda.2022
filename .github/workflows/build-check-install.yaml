@@ -21,8 +21,10 @@ jobs:
           - {image: waddella/rocker_rstudio_4.1.0_deps, tag: 'latest'}
 
     steps:
-      - uses: actions/github-script@v4
+      - name: Gather info from PR
+        uses: actions/github-script@v4
         id: get-pr
+        if: github.event_name == 'pull_request'
         with:
           script: |
             const request = {
@@ -38,22 +40,24 @@ jobs:
               core.setFailed(`Request failed with error ${err}`)
             }
 
-      - uses: actions/checkout@v2
+      - name: Checkout repo during PR
+        uses: actions/checkout@v2
+        if: github.event_name == 'pull_request'
         with:
           repository: ${{ fromJSON(steps.get-pr.outputs.result).head.repo.full_name }}
           ref: ${{ fromJSON(steps.get-pr.outputs.result).head.ref }}
           path: ${{ github.event.repository.name }}
 
-      - name: Print and Check Branch Name
+      - name: Checkout repo from push
+        uses: actions/checkout@v2
+        if: github.event_name == 'push'
+        with:
+          path: ${{ github.event.repository.name }}
+
+      - name: Print Branch Name
         run: |
-          setwd("${{ github.event.repository.name }}")
-          branch_name <- system2("git", c("branch", "--show-current"), stdout = TRUE)
-          cat(paste("\ncurrent branch:", branch_name, "\n"))
-          if (file.exists("staged_dependencies.yaml") && !grepl("@", branch_name))
-            stop(paste0("Note this repo uses staged.dependencies and your branch",
-                        "name does not contain the target branch, e.g. use ",
-                         branch_name, "@main if you wanted to merge your changes into the main branch"))
-        shell: Rscript {0}
+           cd ${{ github.event.repository.name }}
+           git branch --show-current
 
       - name: Install Dependencies
         run: |
@@ -74,7 +78,7 @@ jobs:
           }
         shell: Rscript {0}
         env:
-          GITHUB_PAT: ${{ secrets.AW_GITHUB_PAT }}
+          GITHUB_PAT: ${{ secrets.REPO_GITHUB_TOKEN }}
 
       - name: Build R package
         run: |
