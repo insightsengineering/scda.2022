@@ -2,7 +2,8 @@ system("git clone https://github.roche.com/NEST/random.cdisc.data.git")
 
 releases <- c(
   #"2021_03_22" = "v0.3.8",
-  "2021_05_05" = "v0.3.10"
+  #"2021_05_05" = "v0.3.10",
+  "2021_07_07" = "v0.3.11"
 )
 
 
