@@ -4,8 +4,6 @@ current_repo:
   host: https://github.com
 
 upstream_repos:
-- repo: insightsengineering/scda
-  host: https://github.com
 
 downstream_repos:
 - repo: insightsengineering/tern
