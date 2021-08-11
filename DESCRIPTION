@@ -3,9 +3,9 @@ Type: Package
 Title: Synthetic CDISC Data Archive 2021
 Date: 2021-07-07
 Version: 0.1.0.9000
-Authors@R:person("NEST", email = "nestcicd@roche.com", role = c("aut", "cre"))
+Authors@R: person("NEST", email = "nestcicd@roche.com", role = c("aut", "cre"))
 Description: An archive of synthetic CDISC data for 2021.
-License: file LICENSE
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 LazyDataCompression: bzip2

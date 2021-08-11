@@ -5,7 +5,7 @@ template:
 navbar:
   right:
     - icon: fa-github
-      href: https://github.roche.com/NEST/scda.2021
+      href: https://github.com/insightsengineering/scda.2021
 
 reference:
 - title: Archived data from `random.cdisc.data` in 2021

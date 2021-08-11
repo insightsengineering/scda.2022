@@ -1,4 +1,4 @@
-system("git clone https://github.roche.com/NEST/random.cdisc.data.git")
+system("git clone https://github.com/insightsengineering/random.cdisc.data.git")
 
 releases <- c(
   #"2021_03_22" = "v0.3.8",

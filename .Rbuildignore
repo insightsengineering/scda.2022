@@ -5,3 +5,4 @@
 data_raw/*
 README.*
 ^staged_dependencies.yaml$
+^LICENSE\.md$
