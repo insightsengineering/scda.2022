@@ -5,7 +5,7 @@ Date: 2021-07-07
 Version: 0.1.0.9000
 Authors@R: person("NEST", email = "nestcicd@roche.com", role = c("aut", "cre"))
 Description: An archive of synthetic CDISC data for 2021.
-License: MIT + file LICENSE
+License: Apache License 2.0 | file LICENSE
 Encoding: UTF-8
 LazyData: true
 LazyDataCompression: bzip2
