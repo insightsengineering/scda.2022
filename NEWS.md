@@ -1,6 +1,6 @@
 # scda.2021 0.1.1
 
-* Removed mentions of Roche internal services from the README file.
+* Updated `LICENCE` and `README` with new package references.
 * Added `rcd_2021_07_07` data to the package.
 * Added `error_on_lint: TRUE` to `.lintr`.
 
