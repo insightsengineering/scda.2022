@@ -9,3 +9,4 @@ README.*
 ^\.gitlab-ci\.yml$
 ^\.github
 ^\.lintr
+coverage.*
