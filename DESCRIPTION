@@ -1,15 +1,16 @@
-Package: scda.2021
 Type: Package
+Package: scda.2021
 Title: Synthetic CDISC Data Archive 2021
+Version: 0.1.1.9001
 Date: 2021-10-13
-Version: 0.1.1.9000
-Authors@R: person("NEST", email = "nestcicd@roche.com", role = c("aut", "cre"))
+Authors@R: 
+    person("NEST", , , "nestcicd@roche.com", role = c("aut", "cre"))
 Description: An archive of synthetic CDISC data for 2021.
 License: Apache License 2.0 | file LICENSE
+Depends: 
+    R (>= 3.6)
 Encoding: UTF-8
 LazyData: true
 LazyDataCompression: bzip2
-RoxygenNote: 7.1.2
 Roxygen: list(markdown = TRUE)
-Depends: 
-    R (>= 3.6)
+RoxygenNote: 7.1.2
