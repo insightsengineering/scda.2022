@@ -1,4 +1,4 @@
-# scda.2021 0.1.1.9006
+# scda.2021 0.1.1.9007
 
 * Updated R version requirement to >= 3.6.
 
