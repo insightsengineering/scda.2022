@@ -1,4 +1,4 @@
-# scda.2021 0.1.1.9010.1
+# scda.2021 0.1.2
 
 * Updated R version requirement to >= 3.6.
 * Added `rcd_2021_10_13` data to the package.
