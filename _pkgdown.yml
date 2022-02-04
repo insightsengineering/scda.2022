@@ -1,4 +1,4 @@
-url: https://insightsengineering.github.io/scda.2021
+url: https://insightsengineering.github.io/scda.2022
 
 template:
   params:
@@ -8,9 +8,9 @@ template:
 navbar:
   right:
     - icon: fa-github
-      href: https://github.com/insightsengineering/scda.2021
+      href: https://github.com/insightsengineering/scda.2022
 
 reference:
-- title: Archived data from `random.cdisc.data` in 2021
+- title: Archived data from `random.cdisc.data` in 2022
   contents:
-  -  starts_with("rcd_2021_")
+  -  starts_with("rcd_2022_")

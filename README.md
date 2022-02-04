@@ -1,14 +1,14 @@
 
-# Synthetic CDISC Data Archive 2021
+# Synthetic CDISC Data Archive 2022
 
-This R package contains synthetic CDISC data that we accumulate over time in 2021. Once data is released it will not be changed anymore so that this data can be used for unit testing.
+This R package contains synthetic CDISC data that we accumulate over time in 2022. Once data is released it will not be changed anymore so that this data can be used for unit testing.
 
 The data name convention is `<domain>_<?area?>_<added on date>`.
 
 You can query the available data with
 
 ```r
-data(package = "scda.2021")
+data(package = "scda.2022")
 ```
 
 # Installation
@@ -23,7 +23,7 @@ data(package = "scda.2021")
    1. Using PAT. Input in the Git Bash console, PowerShell or any Linux shell:
 
       ```sh
-      $ git clone https://github.com/insightsengineering/scda.2021.git
+      $ git clone https://github.com/insightsengineering/scda.2022.git
       Username: your_username_goes_here
       Password: your_token_goes_here
       ```
@@ -31,17 +31,17 @@ data(package = "scda.2021")
    1. Using SSH. If set up properly, the repository is ready to be cloned executing:
 
        ```sh
-       git clone https://github.com/insightsengineering/scda.2021.git
+       git clone https://github.com/insightsengineering/scda.2022.git
        ```
 
-   This creates a sub-directory `scda.2021` containing the cloned repository.
+   This creates a sub-directory `scda.2022` containing the cloned repository.
 
 2. Build and install
 
    The native R tools provide a quick way to install a package. Run in PowerShell or any Linux shell:
 
    ```sh
-   R CMD build scda.2021
+   R CMD build scda.2022
    ```
 
    This command builds the package and creates an archive. The name of the archive is output by the command at then of building. Then input in the shell:
@@ -53,7 +53,7 @@ data(package = "scda.2021")
    Here is an example of a real command (with name_of_the_archive substituted by the output of the build command):
 
    ```sh
-   Rscript -e 'install.packages("scda.2021_0.1.0.9000.tar.gz")'
+   Rscript -e 'install.packages("scda.2022_0.1.0.9000.tar.gz")'
    ```
 
 # Note
