@@ -1,0 +1,16 @@
+url: https://insightsengineering.github.io/scda.2022
+
+template:
+  params:
+    bootswatch: cerulean
+    ganalytics: "UA-125641273-1"
+
+navbar:
+  right:
+    - icon: fa-github
+      href: https://github.com/insightsengineering/scda.2022
+
+reference:
+- title: Archived data from `random.cdisc.data` in 2022
+  contents:
+  -  starts_with("rcd_2022_")
