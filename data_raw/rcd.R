@@ -1,11 +1,11 @@
 system("git clone https://github.com/insightsengineering/random.cdisc.data.git")
 
 releases <- c(
-  #"2021_03_22" = "v0.3.8",
-  #"2021_05_05" = "v0.3.10",
-  #"2021_07_07" = "v0.3.11",
-  #"2021_10_13" = "v0.3.12"
-  "2022_01_28" = "main"
+  #"2021_03_22" = "tags/v0.3.8",
+  #"2021_05_05" = "tags/v0.3.10",
+  #"2021_07_07" = "tags/v0.3.11",
+  #"2021_10_13" = "tags/v0.3.12"
+  "2022_01_28" = "'main@{2022-01-28 23:59:59}'"
 )
 
 # https://stackoverflow.com/questions/5577221/
@@ -22,7 +22,7 @@ for (i in seq_along(releases)) {
   dt <- names(releases)[i]
   v <- releases[i]
 
-  #system(paste0("git checkout tags/", v))
+  system(paste("git checkout", v))
 
   data_files <- list.files("data", pattern = "\\.RData$", full.names = TRUE)
   dfs <- lapply(data_files, loadRData)
