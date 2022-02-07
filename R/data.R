@@ -1,19 +1,10 @@
 #' Cached datasets from `random.cdisc.data`
 #'
-#' Cached datasets from 2021 releases of `random.cdisc.data`.
+#' Cached datasets from 2022 releases of `random.cdisc.data`.
 #'
-#' @name rcd_data_2021
+#' @name rcd_data_2022
 #'
 NULL
 
-#' @rdname rcd_data_2021
-"rcd_2021_03_22"
-
-#' @rdname rcd_data_2021
-"rcd_2021_05_05"
-
-#' @rdname rcd_data_2021
-"rcd_2021_07_07"
-
-#' @rdname rcd_data_2021
-"rcd_2021_10_13"
+#' @rdname rcd_data_2022
+"rcd_2022_01_28"

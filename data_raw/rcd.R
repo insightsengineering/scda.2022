@@ -4,14 +4,15 @@ releases <- c(
   #"2021_03_22" = "v0.3.8",
   #"2021_05_05" = "v0.3.10",
   #"2021_07_07" = "v0.3.11",
-  "2021_10_13" = "v0.3.12"
+  #"2021_10_13" = "v0.3.12"
+  "2022_01_28" = "main"
 )
 
 # https://stackoverflow.com/questions/5577221/
 #   how-can-i-load-an-object-into-a-variable-name-that-i-specify-from-an-r-data-file
 loadRData <- function(fileName) { # nolint
   #loads an RData file, and returns it
-  load(fileName)
+  base::load(fileName)
   get(ls()[ls() != "fileName"])
 }
 
@@ -21,7 +22,7 @@ for (i in seq_along(releases)) {
   dt <- names(releases)[i]
   v <- releases[i]
 
-  system(paste0("git checkout tags/", v))
+  #system(paste0("git checkout tags/", v))
 
   data_files <- list.files("data", pattern = "\\.RData$", full.names = TRUE)
   dfs <- lapply(data_files, loadRData)
