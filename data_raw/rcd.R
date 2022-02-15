@@ -1,10 +1,12 @@
 system("git clone https://github.com/insightsengineering/random.cdisc.data.git")
 
 releases <- c(
+  # nolint start
   #"2021_03_22" = "tags/v0.3.8",
   #"2021_05_05" = "tags/v0.3.10",
   #"2021_07_07" = "tags/v0.3.11",
   #"2021_10_13" = "tags/v0.3.12"
+  # nolint end
   "2022_01_28" = "7f2200332aab693d2ef4149a0f67b7708a2db516"
 )
 
