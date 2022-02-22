@@ -1,15 +1,3 @@
-# scda.2021 0.1.2.9000
+# scda.2022 0.0.0.9001
 
-* Updated R version requirement to >= 3.6.
-* Added `rcd_2021_10_13` data to the package.
-* Updated data to include `ADPP` and `ADPC`.
-
-# scda.2021 0.1.1
-
-* Updated `LICENCE` and `README` with new package references.
-* Added `rcd_2021_07_07` data to the package.
-* Added `error_on_lint: TRUE` to `.lintr`.
-
-# scda.2021 0.1.0
-
-* Added a `NEWS.md` file to track changes to the package.
+* Initialize the package with data `rcd_2022_01_28` which matches data as of 28/01/2022.
