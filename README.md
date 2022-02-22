@@ -12,7 +12,7 @@ The data name convention in this package is `<domain>_<?area?>_<added on date>` 
 data(package = "scda.2022")
 ```
 
-# Installation
+## Installation
 
 This repository requires a personal access token to install see here [creating and using PAT](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token). Once this is set up, to install the latest released version of the package run:
 
@@ -22,6 +22,6 @@ install.packages("devtools")
 devtools::install_github("insightsengineering/scda.2022@*release")
 ```
 
-# Note
+## Note
 
 The data in this package is an accumulation over time of datasets that were needed for documentation and unit testing code. We do not attempt to provide reproducibility of the data. The git repository has the folder `data_raw` which has the scripts used to create some of the data.
