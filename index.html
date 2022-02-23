@@ -39,7 +39,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">scda.2022</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.0.0.9000</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.0.0.9001</span>
       </span>
     </div>
 
@@ -51,15 +51,6 @@
 <li>
   <a href="news/index.html">Changelog</a>
 </li>
-<!-- start_releases -->
-<li class="dropdown">
-	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-Other releases
-<span class="caret"></span></a><ul class="dropdown-menu" role="menu">
-   <li><a href="index.html">latest</a></li>
-   <li><a href="/index.html"></a></li>
-</ul></li>
-<!-- end_releases -->
       </ul>
 <ul class="nav navbar-nav navbar-right">
 <li>
@@ -80,58 +71,44 @@ Other releases
 
       </header><div class="row">
   <div class="contents col-md-9">
-
 <div class="section level1">
-<div class="page-header"><h1 id="synthetic-cdisc-data-archive-2022">Synthetic CDISC Data Archive 2022<a class="anchor" aria-label="anchor" href="#synthetic-cdisc-data-archive-2022"></a>
+<div class="page-header"><h1 id="scda2022-synthetic-cdisc-data-archive-2022">scda.2022: Synthetic CDISC Data Archive 2022<a class="anchor" aria-label="anchor" href="#scda2022-synthetic-cdisc-data-archive-2022"></a>
 </h1></div>
-<p>This R package contains synthetic CDISC data that we accumulate over time in 2022. Once data is released it will not be changed anymore so that this data can be used for unit testing.</p>
-<p>The data name convention is <code>&lt;domain&gt;_&lt;?area?&gt;_&lt;added on date&gt;</code>.</p>
-<p>You can query the available data with</p>
+<p>This R package contains synthetic CDISC data released during 2022.
+This synthetic data can be used as test data when developing
+<code>teal</code> applications or statistical analysis functions and due
+to the data not been derived from a real clinical trial it provides an
+excellent method for generating reproducible examples when reporting
+errors.</p>
+<p>Once this package is installed it is recommended to use the <a href="https://github.com/insightsengineering/scda" class="external-link">scda</a> package to
+access this synthetic data rather than using this package directly.</p>
+<p>The data name convention in this package is
+<code>&lt;domain&gt;_&lt;?area?&gt;_&lt;added on date&gt;</code> and you
+can query the available data with</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span>package <span class="op">=</span> <span class="st">"scda.2022"</span><span class="op">)</span></code></pre></div>
-</div>
-<div class="section level1">
-<h1 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
-</h1>
 <div class="section level2">
-<h2 id="clone-and-install-manually">Clone and install manually<a class="anchor" aria-label="anchor" href="#clone-and-install-manually"></a>
+<h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
-<ol style="list-style-type: decimal">
-<li>
-<p>Clone the repository</p>
-<p>The repository can be downloaded directly from the <code>github.com</code> site as an archive (see <a href="https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository" class="external-link">GitHub tutorial on cloning to learn more</a>). Alternatively, Git command line tools offer the same functionality, without the need for manual downloading and unpacking the archive, but require to authenticate to GitHub. You can authenticate using a key pair or a Personal Access Token (PAT). Please refer to excellent GitHub tutorials on <a href="https://docs.github.com/en/github/authenticating-to-github" class="external-link">connecting to GitHub using SSH</a> or <a href="https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token" class="external-link">creating and using PAT</a>.</p>
-<ol style="list-style-type: decimal">
-<li>
-<p>Using PAT. Input in the Git Bash console, PowerShell or any Linux shell:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> git clone https://github.com/insightsengineering/scda.2022.git</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">Username:</span> your_username_goes_here</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ex">Password:</span> your_token_goes_here</span></code></pre></div>
-</li>
-<li>
-<p>Using SSH. If set up properly, the repository is ready to be cloned executing:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/insightsengineering/scda.2022.git</span></code></pre></div>
-</li>
-</ol>
-<p>This creates a sub-directory <code>scda.2022</code> containing the cloned repository.</p>
-</li>
-<li>
-<p>Build and install</p>
-<p>The native R tools provide a quick way to install a package. Run in PowerShell or any Linux shell:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">R</span> CMD build scda.2022</span></code></pre></div>
-<p>This command builds the package and creates an archive. The name of the archive is output by the command at then of building. Then input in the shell:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">Rscript</span> <span class="at">-e</span> <span class="st">'install.packages("name_of_the_archive")</span></span></code></pre></div>
-<p>Here is an example of a real command (with name_of_the_archive substituted by the output of the build command):</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">Rscript</span> <span class="at">-e</span> <span class="st">'install.packages("scda.2022_0.1.0.9000.tar.gz")'</span></span></code></pre></div>
-</li>
-</ol>
+<p>This repository requires a personal access token to install see here
+<a href="https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token" class="external-link">creating
+and using PAT</a>. Once this is set up, to install the latest released
+version of the package run:</p>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/base/Sys.setenv.html" class="external-link">Sys.setenv</a></span><span class="op">(</span>GITHUB_PAT <span class="op">=</span> <span class="st">"your_access_token_here"</span><span class="op">)</span>
+<span class="kw">if</span> <span class="op">(</span><span class="op">!</span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">require</a></span><span class="op">(</span><span class="st"><a href="https://devtools.r-lib.org/" class="external-link">"devtools"</a></span><span class="op">)</span><span class="op">)</span> <span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"devtools"</span><span class="op">)</span>
+<span class="fu">devtools</span><span class="fu">::</span><span class="fu"><a href="https://devtools.r-lib.org/reference/remote-reexports.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"insightsengineering/scda.2022@*release"</span><span class="op">)</span></code></pre></div>
+</div>
+<div class="section level2">
+<h2 id="note">Note<a class="anchor" aria-label="anchor" href="#note"></a>
+</h2>
+<p>The data in this package is an accumulation over time of datasets
+that were needed for documentation and unit testing code. We do not
+attempt to provide reproducibility of the data. The git repository has
+the folder <code>data_raw</code> which has the scripts used to create
+some of the data.</p>
 </div>
 </div>
-<div class="section level1">
-<h1 id="note">Note<a class="anchor" aria-label="anchor" href="#note"></a>
-</h1>
-<p>The data in this package is an accumulation over time of datasets that were needed for documentation and unit testing code. We do not attempt to provide reproducibility of the data. The git repository has the folder <code>data_raw</code> which might have the scripts to create some of the data.</p>
-</div>
-
   </div>
 
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
@@ -171,7 +148,8 @@ Other releases
 
 <div class="pkgdown">
   <p></p>
-<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.2.</p>
+<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a>
+2.0.2.</p>
 </div>
 
       </footer>
