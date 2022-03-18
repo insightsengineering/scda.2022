@@ -7,7 +7,8 @@ releases <- c(
   #"2021_07_07" = "tags/v0.3.11",
   #"2021_10_13" = "tags/v0.3.12"
   # nolint end
-  "2022_01_28" = "7f2200332aab693d2ef4149a0f67b7708a2db516"
+  #"2022_01_28" = "7f2200332aab693d2ef4149a0f67b7708a2db516",
+  "2022_02_28" = "0cc1d7dd8a79db29fff81f68630181ffe1836e83"
 )
 
 # https://stackoverflow.com/questions/5577221/
