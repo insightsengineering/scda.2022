@@ -2,19 +2,19 @@ system("git clone https://github.com/insightsengineering/random.cdisc.data.git")
 
 releases <- c(
   # nolint start
-  #"2021_03_22" = "tags/v0.3.8",
-  #"2021_05_05" = "tags/v0.3.10",
-  #"2021_07_07" = "tags/v0.3.11",
-  #"2021_10_13" = "tags/v0.3.12"
+  # "2021_03_22" = "tags/v0.3.8",
+  # "2021_05_05" = "tags/v0.3.10",
+  # "2021_07_07" = "tags/v0.3.11",
+  # "2021_10_13" = "tags/v0.3.12"
   # nolint end
-  #"2022_01_28" = "7f2200332aab693d2ef4149a0f67b7708a2db516",
+  # "2022_01_28" = "7f2200332aab693d2ef4149a0f67b7708a2db516",
   "2022_02_28" = "0cc1d7dd8a79db29fff81f68630181ffe1836e83"
 )
 
 # https://stackoverflow.com/questions/5577221/
 #   how-can-i-load-an-object-into-a-variable-name-that-i-specify-from-an-r-data-file
 loadRData <- function(fileName) { # nolint
-  #loads an RData file, and returns it
+  # loads an RData file, and returns it
   base::load(fileName)
   get(ls()[ls() != "fileName"])
 }
