@@ -4,6 +4,7 @@
 ^Jenkinsfile$
 data_raw/*
 README.*
+^\.pre-commit-config\.yaml$
 ^staged_dependencies\.yaml$
 ^LICENSE\.md$
 ^\.gitlab-ci\.yml$
