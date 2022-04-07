@@ -9,5 +9,6 @@ README.*
 ^LICENSE\.md$
 ^\.gitlab-ci\.yml$
 ^\.github
+^\.git$
 ^\.lintr
 coverage.*
