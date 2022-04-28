@@ -1,11 +1,10 @@
-system("git clone https://github.com/insightsengineering/random.cdisc.data.git")
+system("git clone git@github.com:insightsengineering/random.cdisc.data.git")
 
 releases <- c(
   # nolint start
   # "2022_01_28" = "7f2200332aab693d2ef4149a0f67b7708a2db516",
-  #"2022_02_28" = "0cc1d7dd8a79db29fff81f68630181ffe1836e83",
   # nolint end
-  "2022_04_27" = "76a051c49588dc639b841e2e3afd2290761ef0d5"
+  "2022_02_28" = "8c143bf5cb86b183f8b1d7ffd77cff5623ee01d4"
 )
 
 # https://stackoverflow.com/questions/5577221/
