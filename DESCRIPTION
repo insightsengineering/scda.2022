@@ -3,10 +3,11 @@ Package: scda.2022
 Title: Synthetic CDISC Data Archive 2022
 Version: 0.1.0.9001
 Date: 2022-04-07
-Authors@R:
+Authors@R: c(
     person("Joe", "Zhu", , "joe.zhu@roche.com", role = c("aut", "cre")),
     person("Pawel", "Rucki", , "pawel.rucki@roche.com", role = "aut"),
     person("F. Hoffmann-La Roche AG", role = c("cph", "fnd"))
+  )
 Description: An archive of synthetic CDISC data for 2022.
 License: Apache License 2.0 | file LICENSE
 Depends:
