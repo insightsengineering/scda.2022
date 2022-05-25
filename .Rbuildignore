@@ -12,3 +12,5 @@ README.*
 ^\.git$
 ^\.lintr
 coverage.*
+^renv$
+^renv\.lock$
