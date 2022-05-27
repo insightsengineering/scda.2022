@@ -12,7 +12,7 @@
 ### Enhancements
   
   * Updated `rcd_2022_02_28` with a new version of `adpp`, including additional default `PARAM`s and new columns `PPSTINT` and `PPENINT`.
-  * Updated `rcd_2022_02_28`addv with new columns `DVDECOD` and `DVSCAT`.
+  * Updated `rcd_2022_02_28` dataset `addv` with new columns `DVDECOD` and `DVSCAT`.
 
 # scda.2022 0.1.0
 
