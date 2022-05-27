@@ -7,7 +7,7 @@
   
 ### Bug fixes
 
-* Updated `rcd_2022_02_28` with all the `NA` and `""` to `""` in adae$ANL01FL.
+* Updated `rcd_2022_02_28` with all the `NA` and `""` to `""` in `adae$ANL01FL`.
 
 ### Enhancements
   
