@@ -1,8 +1,8 @@
 Type: Package
 Package: scda.2022
 Title: Synthetic CDISC Data Archive 2022
-Version: 0.1.0.9008
-Date: 2022-04-07
+Version: 0.1.1
+Date: 2022-06-09
 Authors@R: c(
     person("Joe", "Zhu", , "joe.zhu@roche.com", role = c("aut", "cre")),
     person("Pawel", "Rucki", , "pawel.rucki@roche.com", role = "aut"),
@@ -12,6 +12,7 @@ Description: An archive of synthetic CDISC data for 2022.
 License: Apache License 2.0 | file LICENSE
 Depends:
     R (>= 3.6)
+Config/Needs/website: insightsengineering/nesttemplate
 Encoding: UTF-8
 LazyData: true
 LazyDataCompression: bzip2
