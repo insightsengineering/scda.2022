@@ -29,6 +29,7 @@ jobs:
       REPO_GITHUB_TOKEN: ${{ secrets.REPO_GITHUB_TOKEN }}
     with:
       note_blocklist: true
+
   # coverage:
   #   if: github.event_name == 'pull_request'
   #   name: Coverage 📔
