@@ -12,6 +12,11 @@ Description: An archive of synthetic CDISC data for 2022.
 License: Apache License 2.0 | file LICENSE
 Depends:
     R (>= 3.6)
+Imports:
+    stats,
+    htmltools,
+    grid,
+    rmarkdown
 Encoding: UTF-8
 LazyData: true
 LazyDataCompression: bzip2
