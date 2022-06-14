@@ -14,6 +14,7 @@ Depends:
     R (>= 3.6)
 Config/Needs/website: insightsengineering/nesttemplate
 Encoding: UTF-8
+Language: en-US
 LazyData: true
 LazyDataCompression: bzip2
 Roxygen: list(markdown = TRUE)
