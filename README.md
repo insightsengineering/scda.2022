@@ -3,7 +3,7 @@
 This R package contains synthetic CDISC data released during 2022.
 This synthetic data can be used as test data when developing `teal` applications or statistical analysis functions and due to the data not been derived from a real clinical trial it provides an excellent method for generating reproducible examples when reporting errors.
 
-Once this package is installed it is recommended to use the [`scda`](https://github.com/insightsengineering/scda) package to access this synthetic data rather than using this package directly.
+Once this package is installed it is recommended to use the [`scda`](https://insightsengineering.github.io/scda) package to access this synthetic data rather than using this package directly.
 
 The data name convention in this package is `<domain>_<?area?>_<added on date>` and you can query the available data with
 
