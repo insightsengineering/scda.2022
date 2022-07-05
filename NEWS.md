@@ -1,5 +1,9 @@
 # scda.2022 0.1.1.9004
 
+### Enhancements
+
+* Updated `rcd_2022_06_27` with a new version of `adpp`, adding columns `REGIMEN` and `PKARMCD`.
+
 # scda.2022 0.1.1
 
 ### New features 
