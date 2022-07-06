@@ -3,6 +3,7 @@
 ### Enhancements
 
 * Updated `rcd_2022_06_27` with a new version of `adpp`, adding columns `REGIMEN` and `PKARMCD`.
+* Updated `rcd_2022_06_27` with a new version of `adtte`, adding column `lgTMATRSK` and new `PARAMCD`.
 
 # scda.2022 0.1.1
 
