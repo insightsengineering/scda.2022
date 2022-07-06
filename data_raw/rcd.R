@@ -6,7 +6,6 @@ releases <- c(
   # "2022_02_28" = "fc3620365f38c36e45880cbdebfe16508d902fa6",
   # nolint end
    "2022_06_27" = "3107f7b6ed5362b67d6ffedd6e3d0a92b1a75603"
-
 )
 
 # https://stackoverflow.com/questions/5577221/
@@ -41,4 +40,3 @@ for (i in seq_along(releases)) {
 
 setwd("..")
 unlink("random.cdisc.data", recursive = TRUE)
-
