@@ -5,7 +5,7 @@ releases <- c(
   # "2022_01_28" = "7f2200332aab693d2ef4149a0f67b7708a2db516",
   # "2022_02_28" = "fc3620365f38c36e45880cbdebfe16508d902fa6",
   # nolint end
-  "2022_06_27" = "3107f7b6ed5362b67d6ffedd6e3d0a92b1a75603"
+  "2022_06_27" = "e0ed1197d23f50bb4b8824e9e9266acf0373a554"
 )
 
 # https://stackoverflow.com/questions/5577221/
