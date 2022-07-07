@@ -20,3 +20,4 @@ coverage.*
 ^renv\.lock$
 SECURITY.md
 SECURITY.md
+SECURITY.md
