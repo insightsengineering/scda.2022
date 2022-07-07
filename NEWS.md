@@ -1,8 +1,14 @@
-# scda.2022 0.1.1.9006
+# scda.2022 0.1.1.9007
 
 ### Enhancements
 
 * Updated `rcd_2022_06_27` with a new version of `adpp`, adding columns `REGIMEN` and `PKARMCD`.
+* Updated `rcd_2022_06_27` with a new version of `adtte`, adding column `lgTMATRSK` and new `PARAMCD`.
+* Updated `rcd_2022_06_27` with a new version of `adab`, updating columns `ADAPBLFL`, `ABLFL`, `ADABLFL`, `PARCAT1` and `RELTMU`.
+
+### Bug fixes
+
+* Included post-baseline visits to `adab`.
 
 # scda.2022 0.1.1
 
