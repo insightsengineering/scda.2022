@@ -18,6 +18,4 @@ README.*
 coverage.*
 ^renv$
 ^renv\.lock$
-SECURITY.md
-SECURITY.md
-SECURITY.md
+^man-roxygen$
