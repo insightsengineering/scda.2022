@@ -6,7 +6,7 @@
 * Updated `rcd_2022_06_27` with a new version of `adtte`, adding column `lgTMATRSK` and new `PARAMCD`.
 * Updated `rcd_2022_06_27` with a new version of `adab`, updating columns `ADAPBLFL`, `ABLFL`, `ADABLFL`, `PARCAT1` and `RELTMU`.
 * Updated `rcd_2022_06_27` with a new version of `adab`, adding new `PARAM`s.
-* Updated `rcd_2022_06_27` with new versions of `adsl`, `admh`, `adab`, and `adcm` after refactoring.
+* Updated `rcd_2022_06_27` with new versions of `adsl`, `admh`, `adab`, `adex` and `adcm` after refactoring.
 
 ### Bug fixes
 
