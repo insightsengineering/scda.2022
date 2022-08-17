@@ -1,12 +1,16 @@
-# scda.2022 0.1.1.9011
+# scda.2022 0.1.2
 
 ### Enhancements
 
 * Updated `rcd_2022_06_27` with a new version of `adpp`, adding columns `REGIMEN` and `PKARMCD`.
 * Updated `rcd_2022_06_27` with a new version of `adtte`, adding column `lgTMATRSK` and new `PARAMCD`.
-* Updated `rcd_2022_06_27` with a new version of `adab`, updating columns `ADAPBLFL`, `ABLFL`, `ADABLFL`, `PARCAT1` and `RELTMU`.
-* Updated `rcd_2022_06_27` with a new version of `adab`, adding new `PARAM`s.
-* Updated `rcd_2022_06_27` with new versions of `adsl`, `admh`, `adab`, `adex` and `adcm` after refactoring.
+* Updated `rcd_2022_06_27` with a new version of `adab`, updating columns `ADAPBLFL`, `ABLFL`, `ADABLFL`, `PARCAT1` and `RELTMU`, 
+  and adding new `PARAM` values.
+* Updated `rcd_2022_06_27` with a new version of `adsl`, adding column `AEWITHFL`.
+* Updated `rcd_2022_06_27` with a new version of `admh`, adding column `ATIREL`.
+* Updated `rcd_2022_06_27` with a new version of `adex`, adding columns `AENDTM`, `ASTDY`, `AENDY`, `EXDOSFRQ`, `EXROUTE`, `VISIT`, 
+  `VISITDY`, `EXSTDTC`, `EXENDTC`, `EXSTDY`, and `EXENDY`.
+* Updated `rcd_2022_06_27` with a new version of `adcm`, adding columns `CMSTRTPT`, `CMENRTPT`, `ADURN`, and `ADURU`.
 
 ### Bug fixes
 
