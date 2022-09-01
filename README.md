@@ -26,3 +26,17 @@ A stable release of all `NEST` packages from June 2022 is also available [here](
 ## Note
 
 The data in this package is an accumulation over time of datasets that were needed for documentation and unit testing code. We do not attempt to ensure this data is reproducible. The git repository has the folder `data_raw` which has the scripts used to create some of the data.
+
+## Stargazers and Forkers
+
+### Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/insightsengineering/scda.2022.svg)](https://starchart.cc/insightsengineering/scda.2022)
+
+### Stargazers
+
+[![Stargazers repo roster for @insightsengineering/scda.2022](https://reporoster.com/stars/insightsengineering/scda.2022)](https://github.com/insightsengineering/scda.2022/stargazers)
+
+### Forkers
+
+[![Forkers repo roster for @insightsengineering/scda.2022](https://reporoster.com/forks/insightsengineering/scda.2022)](https://github.com/insightsengineering/scda.2022/network/members)
