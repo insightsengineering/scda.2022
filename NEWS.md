@@ -29,7 +29,7 @@
 
 ### Enhancements
   
-  * Updated `rcd_2022_02_28` with a new version of `adpp`, including additional default `PARAM`s and new columns `PPSTINT` and `PPENINT`.
+  * Updated `rcd_2022_02_28` with a new version of `adpp`, adding default `PARAM`s and columns `PPSTINT` and `PPENINT`.
   * Updated `rcd_2022_02_28` dataset `addv` with new columns `DVDECOD` and `DVSCAT`.
   * Updated `rcd_2022_06_27` with a new version of `adpp`, adding more categories `Metabolite Drug X` and `Metabolite Drug Y` to `PPCAT`.
 
