@@ -12,6 +12,7 @@
   `VISITDY`, `EXSTDTC`, `EXENDTC`, `EXSTDY`, and `EXENDY`.
 * Updated `rcd_2022_06_27` with a new version of `adcm`, adding columns `CMSTRTPT`, `CMENRTPT`, `ADURN`, and `ADURU`.
 * Updated `rcd_2022_06_27` with a new version of `adae`, adding columns `AESCONG`, `AESDISAB`, `AESHOSP`, `AESLIFE`, and `AESMIE`.
+* Updated `rcd_2022_06_27` with a new version of `adsl`, adding column `ADTHAUT`.
 
 ### Bug fixes
 
