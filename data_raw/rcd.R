@@ -19,8 +19,11 @@ loadRData <- function(fileName) { # nolint
 setwd("random.cdisc.data/")
 
 for (i in seq_along(releases)) {
-  dt <- names(releases)[i]
   v <- releases[i]
+  rcd_dt <- paste0("rcd_", names(releases)[i])
+  rls_dir <- paste0("../scda.2022/data/", rcd_dt)
+
+  if (!dir.exists(rls_dir)) dir.create(rls_dir)
 
   system(paste("git checkout", v))
 
@@ -28,14 +31,14 @@ for (i in seq_along(releases)) {
   dfs <- lapply(data_files, loadRData)
 
   names(dfs) <- substring(tools::file_path_sans_ext(basename(data_files)), 2)
+  nms <- c("adsl", setdiff(names(dfs), "adsl"))
+  final <- dfs[nms]
 
-  final <- dfs[c("adsl", setdiff(names(dfs), "adsl"))]
-  nm <- paste0("rcd_", dt)
-
-  assign(nm, final)
-
-  cl <- call("save", as.name(nm), file = paste0("../data/", nm, ".RData"), compress = "bzip2")
-  eval(cl)
+  for (dat in nms) {
+    assign(dat, final[[dat]])
+    cl <- call("save", as.name(dat), file = paste0("../scda.2022/data/", rcd_dt, "/", dat, ".RData"), compress = "bzip2")
+    eval(cl)
+  }
 }
 
 setwd("..")
