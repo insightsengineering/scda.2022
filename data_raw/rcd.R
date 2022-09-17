@@ -27,13 +27,13 @@ for (i in seq_along(releases)) {
   data_files <- list.files("data", pattern = "\\.RData$", full.names = TRUE)
   dfs <- lapply(data_files, loadRData)
 
-  names(dfs) <- substring(tools::file_path_sans_ext(basename(data_files)), 2)
-  nms <- c("adsl", setdiff(names(dfs), "adsl"))
+  names(dfs) <- paste(rcd_dt, substring(tools::file_path_sans_ext(basename(data_files)), 2), sep = "_")
+  nms <- c(paste(rcd_dt, "adsl", sep = "_"), setdiff(names(dfs), paste(rcd_dt, "adsl", sep = "_")))
   final <- dfs[nms]
 
   for (dat in nms) {
     assign(dat, final[[dat]])
-    cl <- call("save", as.name(dat), file = paste0("../scda.2022/data/", rcd_dt, "_", dat, ".RData"), compress = "bzip2")
+    cl <- call("save", as.name(dat), file = paste0("../scda.2022/data/", dat, ".RData"), compress = "bzip2")
     eval(cl)
   }
 }
