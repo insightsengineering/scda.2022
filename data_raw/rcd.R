@@ -21,9 +21,6 @@ setwd("random.cdisc.data/")
 for (i in seq_along(releases)) {
   v <- releases[i]
   rcd_dt <- paste0("rcd_", names(releases)[i])
-  rls_dir <- paste0("../scda.2022/data/", rcd_dt)
-
-  if (!dir.exists(rls_dir)) dir.create(rls_dir)
 
   system(paste("git checkout", v))
 
@@ -36,7 +33,7 @@ for (i in seq_along(releases)) {
 
   for (dat in nms) {
     assign(dat, final[[dat]])
-    cl <- call("save", as.name(dat), file = paste0("../scda.2022/data/", rcd_dt, "/", dat, ".RData"), compress = "bzip2")
+    cl <- call("save", as.name(dat), file = paste0("../scda.2022/data/", rcd_dt, "_", dat, ".RData"), compress = "bzip2")
     eval(cl)
   }
 }
