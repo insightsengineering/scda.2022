@@ -6,13 +6,14 @@
 * Updated `rcd_2022_06_27` with a new version of `adtte`, adding column `lgTMATRSK` and new `PARAMCD`.
 * Updated `rcd_2022_06_27` with a new version of `adab`, updating columns `ADAPBLFL`, `ABLFL`, `ADABLFL`, `PARCAT1` and `RELTMU`, 
   and adding new `PARAM` values.
-* Updated `rcd_2022_06_27` with a new version of `adsl`, adding column `AEWITHFL`.
+* Updated `rcd_2022_06_27` with a new version of `adsl`, adding columns `AEWITHFL`, `ADTHAUT`, `TRT02A`, `TRT02P`, `TRT02SDTM`, 
+  `TRT02EDTM`, `AP02SDTM`, `AP02EDTM`, `TRT01SDTM`, `TRT01EDTM`, `AP01SDTM`, and `AP01EDTM`.
 * Updated `rcd_2022_06_27` with a new version of `admh`, adding column `ATIREL`.
 * Updated `rcd_2022_06_27` with a new version of `adex`, adding columns `AENDTM`, `ASTDY`, `AENDY`, `EXDOSFRQ`, `EXROUTE`, `VISIT`, 
   `VISITDY`, `EXSTDTC`, `EXENDTC`, `EXSTDY`, and `EXENDY`.
 * Updated `rcd_2022_06_27` with a new version of `adcm`, adding columns `CMSTRTPT`, `CMENRTPT`, `ADURN`, and `ADURU`.
 * Updated `rcd_2022_06_27` with a new version of `adae`, adding columns `AESCONG`, `AESDISAB`, `AESHOSP`, `AESLIFE`, and `AESMIE`.
-* Updated `rcd_2022_06_27` with a new version of `adsl`, adding columns `ADTHAUT`, `TRT02A`, `TRT02P`, `TRT02SDTM`, `TRT02EDTM`, `AP02SDTM`, `AP02EDTM`, `TRT01SDTM`, `TRT01EDTM`, `AP01SDTM`, and `AP01EDTM`.
+* Updated `rcd_2022_06_27` with a new version of `adae`, adding column `LDOSEDTM`.
 
 ### Bug fixes
 
