@@ -27,6 +27,16 @@ for (i in seq_along(releases)) {
   data_files <- list.files("data", pattern = "\\.RData$", full.names = TRUE)
   dfs <- lapply(data_files, loadRData)
 
+  # To generate .RData files containing all datasets
+  dfs_all <- dfs
+  names(dfs_all) <- substring(tools::file_path_sans_ext(basename(data_files)), 2)
+  final_all <- dfs_all[c("adsl", setdiff(names(dfs_all), "adsl"))]
+
+  assign(rcd_dt, final_all)
+  cl_all <- call("save", as.name(rcd_dt), file = paste0("../scda.2022/data/", rcd_dt, ".RData"), compress = "bzip2")
+  eval(cl_all)
+
+  # To generate .RData files containing individual datasets
   names(dfs) <- paste(rcd_dt, substring(tools::file_path_sans_ext(basename(data_files)), 2), sep = "_")
   nms <- c(paste(rcd_dt, "adsl", sep = "_"), setdiff(names(dfs), paste(rcd_dt, "adsl", sep = "_")))
   final <- dfs[nms]
