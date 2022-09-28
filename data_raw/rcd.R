@@ -33,7 +33,7 @@ for (i in seq_along(releases)) {
   final_all <- dfs_all[c("adsl", setdiff(names(dfs_all), "adsl"))]
 
   assign(rcd_dt, final_all)
-  cl_all <- call("save", as.name(rcd_dt), file = paste0("../scda.2022/data/", rcd_dt, ".RData"), compress = "bzip2")
+  cl_all <- call("save", as.name(rcd_dt), file = paste0("../data/", rcd_dt, ".RData"), compress = "bzip2")
   eval(cl_all)
 
   # To generate .RData files containing individual datasets
@@ -43,7 +43,7 @@ for (i in seq_along(releases)) {
 
   for (dat in nms) {
     assign(dat, final[[dat]])
-    cl <- call("save", as.name(dat), file = paste0("../scda.2022/data/", dat, ".RData"), compress = "bzip2")
+    cl <- call("save", as.name(dat), file = paste0("../data/", dat, ".RData"), compress = "bzip2")
     eval(cl)
   }
 }
