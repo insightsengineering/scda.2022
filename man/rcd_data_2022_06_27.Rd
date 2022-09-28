@@ -24,43 +24,43 @@
 \alias{rcd_2022_06_27_advs}
 \title{Cached datasets from the 2022_06_27 release of \code{random.cdisc.data}}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 400 rows and 46 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 400 rows and 56 columns.
 
 An object of class \code{data.frame} with 64372 rows and 21 columns.
 
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 1934 rows and 81 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 1934 rows and 92 columns.
 
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 3600 rows and 57 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 3600 rows and 67 columns.
 
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 3685 rows and 74 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 3685 rows and 84 columns.
 
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 103 rows and 57 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 103 rows and 67 columns.
 
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 13600 rows and 79 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 13600 rows and 89 columns.
 
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 6400 rows and 70 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 6400 rows and 80 columns.
 
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 20000 rows and 62 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 20000 rows and 72 columns.
 
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 8400 rows and 87 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 8400 rows and 97 columns.
 
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 1934 rows and 58 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 1934 rows and 68 columns.
 
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 4378 rows and 59 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 4378 rows and 69 columns.
 
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 26268 rows and 59 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 26268 rows and 69 columns.
 
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 14000 rows and 64 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 14000 rows and 74 columns.
 
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 3200 rows and 56 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 3200 rows and 66 columns.
 
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 2000 rows and 56 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 2000 rows and 66 columns.
 
-An object of class \code{data.frame} with 2800 rows and 67 columns.
+An object of class \code{data.frame} with 2800 rows and 77 columns.
 
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 2000 rows and 58 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 2000 rows and 68 columns.
 
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 16800 rows and 78 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 16800 rows and 88 columns.
 }
 \usage{
 rcd_2022_06_27_adsl
