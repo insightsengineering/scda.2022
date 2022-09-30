@@ -5,7 +5,7 @@ releases <- c(
   # "2022_01_28" = "7f2200332aab693d2ef4149a0f67b7708a2db516",
   # "2022_02_28" = "fc3620365f38c36e45880cbdebfe16508d902fa6",
   # nolint end
-  "2022_06_27" = "1b66749481bb81ec0284279f4201e3a745cca3b1"
+  "2022_06_27" = "c4f1ef31f816ddfe46f226df85f12cb77d85c8d6"
 )
 
 # https://stackoverflow.com/questions/5577221/
@@ -19,23 +19,33 @@ loadRData <- function(fileName) { # nolint
 setwd("random.cdisc.data/")
 
 for (i in seq_along(releases)) {
-  dt <- names(releases)[i]
   v <- releases[i]
+  rcd_dt <- paste0("rcd_", names(releases)[i])
 
   system(paste("git checkout", v))
 
   data_files <- list.files("data", pattern = "\\.RData$", full.names = TRUE)
   dfs <- lapply(data_files, loadRData)
 
-  names(dfs) <- substring(tools::file_path_sans_ext(basename(data_files)), 2)
+  # To generate .RData files containing all datasets
+  dfs_all <- dfs
+  names(dfs_all) <- substring(tools::file_path_sans_ext(basename(data_files)), 2)
+  final_all <- dfs_all[c("adsl", setdiff(names(dfs_all), "adsl"))]
 
-  final <- dfs[c("adsl", setdiff(names(dfs), "adsl"))]
-  nm <- paste0("rcd_", dt)
+  assign(rcd_dt, final_all)
+  cl_all <- call("save", as.name(rcd_dt), file = paste0("../data/", rcd_dt, ".RData"), compress = "bzip2")
+  eval(cl_all)
 
-  assign(nm, final)
+  # To generate .RData files containing individual datasets
+  names(dfs) <- paste(rcd_dt, substring(tools::file_path_sans_ext(basename(data_files)), 2), sep = "_")
+  nms <- c(paste(rcd_dt, "adsl", sep = "_"), setdiff(names(dfs), paste(rcd_dt, "adsl", sep = "_")))
+  final <- dfs[nms]
 
-  cl <- call("save", as.name(nm), file = paste0("../data/", nm, ".RData"), compress = "bzip2")
-  eval(cl)
+  for (dat in nms) {
+    assign(dat, final[[dat]])
+    cl <- call("save", as.name(dat), file = paste0("../data/", dat, ".RData"), compress = "bzip2")
+    eval(cl)
+  }
 }
 
 setwd("..")

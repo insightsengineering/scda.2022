@@ -14,6 +14,8 @@
 * Updated `rcd_2022_06_27` with a new version of `adcm`, adding columns `CMSTRTPT`, `CMENRTPT`, `ADURN`, and `ADURU`.
 * Updated `rcd_2022_06_27` with a new version of `adae`, adding columns `AESCONG`, `AESDISAB`, `AESHOSP`, `AESLIFE`, and `AESMIE`.
 * Updated `rcd_2022_06_27` with a new version of `adae`, adding column `LDOSEDTM`.
+* Updated `rcd` script to store datasets in separate `.RData` files.
+
 
 ### Bug fixes
 
