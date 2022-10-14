@@ -4,8 +4,9 @@ releases <- c(
   # nolint start
   # "2022_01_28" = "7f2200332aab693d2ef4149a0f67b7708a2db516",
   # "2022_02_28" = "fc3620365f38c36e45880cbdebfe16508d902fa6",
+  # "2022_06_27" = "c4f1ef31f816ddfe46f226df85f12cb77d85c8d6",
   # nolint end
-  "2022_06_27" = "c4f1ef31f816ddfe46f226df85f12cb77d85c8d6"
+  "2022_10_13" = "5d7902ec470eadcbb02cd5bc2702c60bf0552558"
 )
 
 # https://stackoverflow.com/questions/5577221/
