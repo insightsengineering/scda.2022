@@ -9,3 +9,6 @@ downstream_repos:
   insightsengineering/scda:
     repo: insightsengineering/scda
     host: https://github.com
+  insightsengineering/teal.data:
+    repo: insightsengineering/teal.data
+    host: https://github.com
