@@ -9,3 +9,6 @@ downstream_repos:
   insightsengineering/scda:
     repo: insightsengineering/scda
     host: https://github.com
+  insightsengineering/teal.modules.clinical:
+    repo: insightsengineering/teal.modules.clinical
+    host: https://github.com
