@@ -9,6 +9,9 @@ downstream_repos:
   insightsengineering/scda:
     repo: insightsengineering/scda
     host: https://github.com
+  insightsengineering/teal.goshawk:
+    repo: insightsengineering/teal.goshawk
+    host: https://github.com
   insightsengineering/goshawk:
     repo: insightsengineering/goshawk
     host: https://github.com
