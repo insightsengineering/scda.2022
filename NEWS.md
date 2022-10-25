@@ -1,3 +1,9 @@
+# scda.2022 0.1.3.9001
+
+### Enhancements
+
+* Initialize `rcd_2022_10_13` data for 2022_10_13 release.
+
 # scda.2022 0.1.3
 
 ### Enhancements
