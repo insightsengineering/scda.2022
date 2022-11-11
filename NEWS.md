@@ -1,7 +1,8 @@
-# scda.2022 0.1.3.9008
+# scda.2022 0.1.3.9009
 
 ### Enhancements
 
+* Update `rcd_2022_10_13` with a new version of `adpc` and `adab`. Recoded visits to make it match`adab`.
 * Initialize `rcd_2022_10_13` data for 2022_10_13 release.
 
 # scda.2022 0.1.3
