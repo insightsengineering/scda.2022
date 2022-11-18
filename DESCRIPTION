@@ -1,8 +1,8 @@
 Type: Package
 Package: scda.2022
 Title: Synthetic CDISC Data Archive 2022
-Version: 0.1.3.9009
-Date: 2022-11-14
+Version: 0.1.3.9010
+Date: 2022-11-18
 Authors@R: c(
     person("Joe", "Zhu", , "joe.zhu@roche.com", role = c("aut", "cre")),
     person("Pawel", "Rucki", , "pawel.rucki@roche.com", role = "aut"),
