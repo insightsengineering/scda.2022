@@ -15,7 +15,7 @@ An object of class \code{list} of length 19.
 
 An object of class \code{list} of length 19.
 
-An object of class \code{list} of length 39.
+An object of class \code{list} of length 20.
 }
 \usage{
 rcd_2022_01_28
