@@ -44,6 +44,9 @@ NULL
 "rcd_2022_10_13_adpp"
 
 #' @rdname rcd_data_2022_10_13
+"rcd_2022_10_13_adqlqc"
+
+#' @rdname rcd_data_2022_10_13
 "rcd_2022_10_13_adqs"
 
 #' @rdname rcd_data_2022_10_13

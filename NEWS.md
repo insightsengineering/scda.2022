@@ -2,8 +2,9 @@
 
 ### Enhancements
 
-* Update `rcd_2022_10_13` with a new version of `adpc` and `adab` to make visits match.
-* Initialize `rcd_2022_10_13` data for 2022_10_13 release.
+* Initialized `rcd_2022_10_13` data for 2022_10_13 release.
+* Updated `rcd_2022_10_13` with a new version of `adpc` and `adab` to make visits match.
+* Updated `rcd_2022_10_13` with new dataset `adqlqc`.
 
 # scda.2022 0.1.3
 
