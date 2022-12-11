@@ -1,5 +1,23 @@
 # scda.2022: Synthetic CDISC Data Archive 2022
 
+<!-- start badges -->
+[![Check 🛠](https://github.com/insightsengineering/scda.2022/actions/workflows/check.yaml/badge.svg)](https://github.com/insightsengineering/scda.2022/actions/workflows/check.yaml)
+[![Docs 📚](https://github.com/insightsengineering/scda.2022/actions/workflows/docs.yaml/badge.svg)](https://insightsengineering.github.io/scda.2022/)
+
+![GitHub forks](https://img.shields.io/github/forks/insightsengineering/scda.2022?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/insightsengineering/scda.2022?style=social)
+
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/insightsengineering/scda.2022)
+![GitHub contributors](https://img.shields.io/github/contributors/insightsengineering/scda.2022)
+![GitHub last commit](https://img.shields.io/github/last-commit/insightsengineering/scda.2022)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/insightsengineering/scda.2022)
+![GitHub repo size](https://img.shields.io/github/repo-size/insightsengineering/scda.2022)
+![GitHub language count](https://img.shields.io/github/languages/count/insightsengineering/scda.2022)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![Current Version](https://img.shields.io/github/r-package/v/insightsengineering/scda.2022/main?color=purple\&label=package%20version)](https://github.com/insightsengineering/scda.2022/tree/main)
+[![Open Issues](https://img.shields.io/github/issues-raw/insightsengineering/scda.2022?color=red\&label=open%20issues)](https://github.com/insightsengineering/scda.2022/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
+<!-- end badges -->
+
 This R package contains synthetic CDISC data released during 2022.
 This synthetic data can be used as test data when developing `teal` applications or statistical analysis functions and due to the data not been derived from a real clinical trial it provides an excellent method for generating reproducible examples when reporting errors.
 
