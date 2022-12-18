@@ -6,7 +6,7 @@ releases <- c(
   # "2022_02_28" = "fc3620365f38c36e45880cbdebfe16508d902fa6",
   # "2022_06_27" = "c4f1ef31f816ddfe46f226df85f12cb77d85c8d6",
   # "2022_10_13" = "5d7902ec470eadcbb02cd5bc2702c60bf0552558",
-  "2022_10_13" = "47ca76afb5e381ffe74b2320f3e927c46fd64c7c"
+  "2022_10_13" = "d1b7d110e862f40a0ecff3c14a3534e486695d4a"
   # nolint end
 )
 
