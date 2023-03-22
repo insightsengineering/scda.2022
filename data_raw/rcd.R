@@ -7,7 +7,7 @@ releases <- c(
   # "2022_06_27" = "c4f1ef31f816ddfe46f226df85f12cb77d85c8d6",
   # "2022_10_13" = "a87f6b958782d5397b274c9faddb16d1a386903b"
   # nolint end
-  "2023_03_17" = "873af6ed17b7fd3160bc3531ab65d949e9bc1a30"
+  "2023_03_17" = "to_be_updated"
 )
 
 # https://stackoverflow.com/questions/5577221/
