@@ -12,3 +12,4 @@ reference:
 - title: Archived data from `random.cdisc.data` in 2022
   contents:
   -  starts_with("rcd_2022_")
+  -  starts_with("rcd_2023_")

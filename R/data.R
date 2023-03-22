@@ -17,3 +17,6 @@ NULL
 
 #' @rdname rcd_data_2022
 "rcd_2022_10_13"
+
+#' @rdname rcd_data_2022
+"rcd_2023_03_17"
