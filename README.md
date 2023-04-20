@@ -1,7 +1,7 @@
 # scda.2022: Synthetic CDISC Data Archive 2022
 
 <!-- start badges -->
-[![Check 🛠](https://github.com/insightsengineering/scda.2022/actions/workflows/check.yaml/badge.svg)](https://github.com/insightsengineering/scda.2022/actions/workflows/check.yaml)
+[![Check 🛠](https://github.com/insightsengineering/scda.2022/actions/workflows/check.yaml/badge.svg)](https://insightsengineering.github.io/scda.2022/main/unit-test-report/)
 [![Docs 📚](https://github.com/insightsengineering/scda.2022/actions/workflows/docs.yaml/badge.svg)](https://insightsengineering.github.io/scda.2022/)
 
 ![GitHub forks](https://img.shields.io/github/forks/insightsengineering/scda.2022?style=social)
