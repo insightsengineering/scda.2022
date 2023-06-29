@@ -15,9 +15,6 @@ downstream_repos:
   insightsengineering/goshawk:
     repo: insightsengineering/goshawk
     host: https://github.com
-  insightsengineering/teal:
-    repo: insightsengineering/teal
-    host: https://github.com
   insightsengineering/teal.data:
     repo: insightsengineering/teal.data
     host: https://github.com
