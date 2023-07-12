@@ -18,9 +18,6 @@ downstream_repos:
   insightsengineering/teal.data:
     repo: insightsengineering/teal.data
     host: https://github.com
-  insightsengineering/teal.modules.general:
-    repo: insightsengineering/teal.modules.general
-    host: https://github.com
   insightsengineering/teal.modules.hermes:
     repo: insightsengineering/teal.modules.hermes
     host: https://github.com
