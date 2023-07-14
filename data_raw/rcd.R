@@ -1,4 +1,4 @@
-#system("git clone git@github.com:insightsengineering/random.cdisc.data.git")
+system("git clone git@github.com:insightsengineering/random.cdisc.data.git")
 
 releases <- c(
   # nolint start
