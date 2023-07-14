@@ -1,7 +1,8 @@
-# scda.2022 0.1.4.9011
+# scda.2022 0.1.5
 
 ### Enhancements
 
+* Initialized `rcd_2023_07_07` data.
 * Initialized `rcd_2023_03_17` data after 2023_03_17 release.
 
 # scda.2022 0.1.4
