@@ -8,6 +8,7 @@
 \alias{rcd_2022_06_27}
 \alias{rcd_2022_10_13}
 \alias{rcd_2023_03_17}
+\alias{rcd_2023_07_07}
 \title{Cached datasets from \code{random.cdisc.data}}
 \format{
 An object of class \code{list} of length 18.
@@ -15,6 +16,8 @@ An object of class \code{list} of length 18.
 An object of class \code{list} of length 19.
 
 An object of class \code{list} of length 19.
+
+An object of class \code{list} of length 20.
 
 An object of class \code{list} of length 20.
 
@@ -30,6 +33,8 @@ rcd_2022_06_27
 rcd_2022_10_13
 
 rcd_2023_03_17
+
+rcd_2023_07_07
 }
 \description{
 Cached datasets from 2022 releases of \code{random.cdisc.data}.
