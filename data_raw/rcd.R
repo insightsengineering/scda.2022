@@ -1,13 +1,14 @@
-system("git clone git@github.com:insightsengineering/random.cdisc.data.git")
+#system("git clone git@github.com:insightsengineering/random.cdisc.data.git")
 
 releases <- c(
   # nolint start
   # "2022_01_28" = "7f2200332aab693d2ef4149a0f67b7708a2db516",
   # "2022_02_28" = "fc3620365f38c36e45880cbdebfe16508d902fa6",
   # "2022_06_27" = "c4f1ef31f816ddfe46f226df85f12cb77d85c8d6",
-  # "2022_10_13" = "a87f6b958782d5397b274c9faddb16d1a386903b"
+  # "2022_10_13" = "a87f6b958782d5397b274c9faddb16d1a386903b",
+  # "2023_03_17" = "cbf3ae1f52faedeb43577b5aeaafea1372c6cbfe"
   # nolint end
-  "2023_03_17" = "cbf3ae1f52faedeb43577b5aeaafea1372c6cbfe"
+  "2023_07_07" = "c3b89d8c16e906547ea309ae6b61d2bcb1987cdb"
 )
 
 # https://stackoverflow.com/questions/5577221/
