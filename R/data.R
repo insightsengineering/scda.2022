@@ -20,3 +20,6 @@ NULL
 
 #' @rdname rcd_data_2022
 "rcd_2023_03_17"
+
+#' @rdname rcd_data_2022
+"rcd_2023_07_07"
