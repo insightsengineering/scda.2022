@@ -1,9 +1,12 @@
-# scda.2022 0.1.4.9013
+# scda.2022 0.1.5.9002
+
+# scda.2022 0.1.5
 
 ### Enhancements
 
 * Initialized `rcd_2023_07_07` data.
 * Initialized `rcd_2023_03_17` data after 2023_03_17 release.
+* Removed `teal` family packages from the `staged.dependencies`.
 
 # scda.2022 0.1.4
 
