@@ -1,5 +1,9 @@
 # scda.2022 0.1.5.9002
 
+### Enhancements
+
+* Updated `rcd_2023_07_07` with a new version of all datasets with `"NOT REPORTED"` level of `ETHNIC` variable fixed.
+
 # scda.2022 0.1.5
 
 ### Enhancements
