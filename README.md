@@ -1,3 +1,5 @@
+> :warning: **WARNING**: `scda.2022` is deprecated and no longer maintained. Use at your own risk.
+
 # scda.2022: Synthetic CDISC Data Archive 2022
 
 <!-- start badges -->
